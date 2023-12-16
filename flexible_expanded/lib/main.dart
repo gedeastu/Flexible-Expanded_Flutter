@@ -36,9 +36,9 @@ class _FlexibleExpandedState extends State<FlexibleExpanded> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
         Flexible(
-          fit: FlexFit.tight,
-          flex:150,
-          child: Row(
+          fit: FlexFit.loose,
+          flex:0,
+          child: Wrap(
             children: [
               Container(
                 height: 200.0,
